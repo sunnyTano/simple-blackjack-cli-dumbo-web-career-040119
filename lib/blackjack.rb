@@ -28,7 +28,7 @@ display_card_total(sum)
 return sum
 end
 
-def hit?
+def hit? (num)
   # code hit? here
 end
 
