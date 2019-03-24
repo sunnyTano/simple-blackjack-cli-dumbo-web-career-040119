@@ -28,7 +28,7 @@ display_card_total(sum)
 return sum
 end
 
-def hit? (num)
+def hit?(num)
 prompt_user
 input = get_user_input
 if input === 'h'
@@ -50,9 +50,11 @@ end
 
 def runner
   welcome 
-  initial_round
-  hit? 
+  num = initial_round
+  hit?(num)
   if num > 21
-  end_game
+  end_game (num)
+else
+  
 end
     
