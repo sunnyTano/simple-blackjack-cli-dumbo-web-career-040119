@@ -40,7 +40,8 @@ else #invalid_command
 end
 
 def invalid_command
-  # code invalid_command here
+  puts "Please enter a valid comment"
+  prompt_user 
 end
 
 #####################################################
