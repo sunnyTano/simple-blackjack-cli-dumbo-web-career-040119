@@ -37,6 +37,7 @@ elsif get_user_input === 's'
   puts deal_card_total
 else #invalid_command
 end
+end
 
 def invalid_command
   # code invalid_command here
