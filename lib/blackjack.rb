@@ -30,7 +30,7 @@ end
 
 def hit? (num)
 prompt_user
-input === get_user_input
+input = get_user_input
 if input === 'h'
  deal_card += num
 elsif input === 's'
