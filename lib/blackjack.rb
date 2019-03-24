@@ -29,7 +29,12 @@ return sum
 end
 
 def hit? (num)
-  # code hit? here
+prompt_user
+get_user_input
+if get_user_input ==='h'
+  deal_card
+else
+  
 end
 
 def invalid_command
