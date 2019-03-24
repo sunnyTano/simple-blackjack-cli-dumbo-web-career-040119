@@ -32,9 +32,9 @@ def hit? (num)
 prompt_user
 get_user_input
 if get_user_input ==='h'
- puts deal_card += num
+ deal_card += num
 elsif get_user_input === 's'
-  puts num
+  num
 else #invalid_command
   end
 end
